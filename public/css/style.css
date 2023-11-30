@@ -1,0 +1,431 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.INTRO {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 100vw;
+  color: white;
+  position: relative;
+}
+
+.INTRO_BIS .NavBar {
+  width: 100%;
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 90%;
+}
+.INTRO_BIS .NavBar h2 {
+  width: 50%;
+  padding-left: 2%;
+  font-size: 20px;
+}
+.INTRO_BIS .NavBar nav {
+  width: 50%;
+  padding-left: 50%;
+  font-size: 14px;
+}
+.INTRO_BIS .NavBar nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 8%;
+  padding: 2.5% 2% 2.5% 2%;
+}
+.INTRO_BIS .NavBar nav ul li:hover {
+  background-color: blue;
+}
+.INTRO_BIS .NavBar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.INTRO_BIS .SPATIAL {
+  display: flex;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  position: absolute;
+  bottom: 45%;
+}
+.INTRO_BIS .SPATIAL h1 {
+  font-size: 50px;
+}
+.INTRO_BIS .SPATIAL p {
+  width: 30%;
+  margin-bottom: 2%;
+  margin-top: -1%;
+  opacity: 70%;
+  font-size: 18px;
+}
+.INTRO_BIS .SPATIAL button {
+  padding: 1%;
+  background-color: darkred;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  .INTRO {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100vw;
+    color: white;
+    position: relative;
+  }
+  .INTRO_BIS .NavBar {
+    width: 100%;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 90%;
+    margin-top: 20%;
+  }
+  .INTRO_BIS .NavBar h2 {
+    width: 30%;
+    height: 20px;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+  .INTRO_BIS .NavBar nav {
+    width: 80%;
+    display: inline-block;
+    padding-left: 45%;
+    font-size: 10px;
+  }
+  .INTRO_BIS .NavBar nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 8%;
+    padding: 2.5% 2% 2.5% 2%;
+  }
+  .INTRO_BIS .NavBar nav ul li:hover {
+    background-color: blue;
+  }
+  .INTRO_BIS .NavBar nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .INTRO_BIS .SPATIAL {
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    position: absolute;
+    bottom: 45%;
+  }
+  .INTRO_BIS .SPATIAL h1 {
+    font-size: 50px;
+  }
+  .INTRO_BIS .SPATIAL p {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: -1%;
+    opacity: 70%;
+    font-size: 18px;
+  }
+  .INTRO_BIS .SPATIAL button {
+    padding: 1%;
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+}
+.MAECENAS {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
+}
+.MAECENAS .Left {
+  width: 20%;
+  margin-top: -5%;
+}
+.MAECENAS .Left h1 {
+  font-size: 40px;
+}
+.MAECENAS .Left p {
+  color: #c0bcbc;
+  font-size: 20px;
+  margin-top: -5%;
+}
+.MAECENAS .Right {
+  width: 20%;
+}
+.MAECENAS .Right p {
+  color: darkgrey;
+  font-size: 12px;
+  line-height: 200%;
+}
+
+.FUSCE {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding-bottom: 4%;
+  padding-top: 3%;
+}
+.FUSCE .Text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FUSCE .Text p {
+  color: grey;
+  margin-top: -0.5%;
+  margin-bottom: 3.5%;
+  font-size: 20px;
+}
+.FUSCE .Images {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.FUSCE .Images p {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2%;
+  border-bottom: 2px solid darkgrey;
+  border-left: 2px solid darkgrey;
+  border-right: 2px solid darkgrey;
+  padding: 3% 3% 3% 3%;
+}
+.FUSCE .Boutons {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.FUSCE .Boutons #First {
+  background-color: red;
+  color: white;
+  padding: 1% 2% 1% 2%;
+  border: none;
+  border-radius: 10px;
+}
+.FUSCE .Boutons #Second {
+  background-color: black;
+  color: white;
+  padding: 1% 2% 1% 2%;
+  border: none;
+  border-radius: 10px;
+}
+
+.MAURIS {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.MAURIS .M_Texte {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 2%;
+  font-size: 20px;
+  padding-left: 5%;
+}
+.MAURIS .M_Texte p {
+  margin-top: -0.7%;
+  color: grey;
+  font-size: 23px;
+}
+.MAURIS .Square {
+  display: flex;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+.MAURIS .Square .One {
+  display: flex;
+  width: 500px;
+  text-align: right;
+  gap: 10%;
+}
+.MAURIS .Square .One h3 {
+  color: lightgrey;
+  margin-top: -2%;
+}
+.MAURIS .Square .One p {
+  width: 350px;
+  word-spacing: 3%;
+}
+.MAURIS .Square .One img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px grey solid;
+  display: flex;
+}
+.MAURIS .Square .Two {
+  display: flex;
+  width: 500px;
+  gap: 10%;
+  text-align: left;
+}
+.MAURIS .Square .Two h3 {
+  color: lightgrey;
+  margin-top: -2%;
+}
+.MAURIS .Square .Two p {
+  width: 350px;
+  word-spacing: 3%;
+}
+.MAURIS .Square .Two img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px grey solid;
+  display: flex;
+}
+.MAURIS .Square .Three {
+  display: flex;
+  width: 500px;
+  text-align: right;
+  gap: 10%;
+}
+.MAURIS .Square .Three h3 {
+  color: lightgrey;
+  margin-top: -2%;
+}
+.MAURIS .Square .Three p {
+  width: 350px;
+  word-spacing: 3%;
+}
+.MAURIS .Square .Three img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px grey solid;
+  display: flex;
+}
+.MAURIS .Square .Four {
+  display: flex;
+  width: 500px;
+  text-align: left;
+  gap: 10%;
+}
+.MAURIS .Square .Four h3 {
+  color: lightgrey;
+  margin-top: -2%;
+}
+.MAURIS .Square .Four p {
+  width: 350px;
+  word-spacing: 3%;
+}
+.MAURIS .Square .Four img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px grey solid;
+  display: flex;
+}
+
+.END {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100vw;
+  color: white;
+  position: relative;
+}
+
+.END_Text {
+  display: flex;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 322%;
+}
+.END_Text h1 {
+  font-size: 50px;
+}
+.END_Text p {
+  width: 30%;
+  margin-bottom: 2%;
+  margin-top: -1%;
+  opacity: 70%;
+  font-size: 18px;
+}
+.END_Text button {
+  padding: 1%;
+  background-color: darkred;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+footer {
+  background-color: #f6f6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+footer .ICONS {
+  display: flex;
+  padding-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  width: 30%;
+}
+footer .CopyRight {
+  display: flex;
+  color: #aaaaaa;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
